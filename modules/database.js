@@ -21,7 +21,6 @@ function initialize(app,callback) {
 		database : config.get("database"),
 		port : config.get("port"),
 		user : config.get("user"),
-		password : config.get("password"),
 		query : {pool: true,debug: true}
 	};
 
